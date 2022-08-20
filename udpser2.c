@@ -43,12 +43,8 @@ int main() {
     	result=arr[0]+arr[1];
     	sendto(sfd, &result, sizeof(int),MSG_CONFIRM, (const struct sockaddr *) &cadd,len); 
     	printf("message sent.\n"); 
-    
+        printf("    ------     \n");
         }
- 
     
-        
-    
-        
     return 0; 
 }
